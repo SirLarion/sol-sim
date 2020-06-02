@@ -1,0 +1,20 @@
+Tue 10.3.
+The structure of the backend of the simulator has been implemented. 
+Using the "Simulation" object bodies can be added, modified or removed from the simulation.
+Implementing orbit calculation is still in-progress. This means the project is slightly behind
+schedule. A new class, undefined in the plan called "Orbit" has been created. Instances of it
+will have orbit defining values and each Body is connected to an Orbit instance.
+So far the time used is around 10-15 hours
+
+Tue 24.3.
+Orbit calculation for 2-body problems has been implemented. Rigorous testing is still required.
+The GUI is taking shape. Graphics are displayed and some interaction with the simulation is possible.
+The graphics are only 2-dimensional and they'll likely remain that way. It can be upgraded fairly easily
+if there's time for it. However, implementing other key features is a priority. File I/O isn't being worked on
+yet but is next in line. Overall workload has been 40-45 hours.
+
+Tue 7.4.
+A little less work done since the last report. Some conversion to support 3-body problems was made such
+as calculating the positions of the Bodies concurrently so that a new refreshed state can be achieved in less
+time. In the process the GUI object saw some cleaning up as well.
+60-70 hours work done.
