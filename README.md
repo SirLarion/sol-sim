@@ -18,3 +18,12 @@ Run solar-sim.jar with java or run directly in sbt with
 sbt run
 ```
 in the project root.
+
+## Credits
+Data for the default displayed solar system gotten from JPL:s planetary ephemerides: 
+- https://ssd.jpl.nasa.gov/horizons.cgi
+
+4th order Runge-Kutta method for calculating orbital movements: 
+- http://spiff.rit.edu/richmond/nbody/OrbitRungeKutta4.pdf
+- https://gafferongames.com/post/integration_basics/
+- https://en.wikipedia.org/wiki/Runge-Kutta_methods
