@@ -9,6 +9,7 @@ To rebuild from source, run
 ```
 sbt clean package
 ```
+in the project root. <br></br>
 (Requires sbt https://www.scala-sbt.org/)
 
 ## Using
@@ -16,3 +17,4 @@ Run solar-sim.jar with java or run directly in sbt with
 ```
 sbt run
 ```
+in the project root.
